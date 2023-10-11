@@ -26,6 +26,8 @@ public class UserModel {
   @CreationTimestamp
   private LocalDateTime createdAt;
 
+  public char[] getPassword;
+
   public void setUsername(String username) {
     this.username = username;
   }
